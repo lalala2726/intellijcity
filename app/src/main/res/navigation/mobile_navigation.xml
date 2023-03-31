@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.zhangchuang.intellig.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.zhangchuang.intellig.ui.dashboard.DashboardFragment"
+        android:label="生活"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.zhangchuang.intellig.ui.personalcenter.PersonalCenter"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_personal" />
+    <fragment
+        android:id="@+id/navigation_car"
+        android:name="com.zhangchuang.intellig.ui.car.CarActivity"
+        android:label="交管"
+        tools:layout="@layout/activity_car" />
+</navigation>

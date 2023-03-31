@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">智慧城市</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">生活</string>
+    <string name="title_car">交管</string>
+    <string name="title_notifications">个人</string>
+</resources>
